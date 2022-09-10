@@ -1,0 +1,190 @@
+#home {
+  background-color: var(--light);
+  height: 600px;
+  position: relative;
+}
+
+.home-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.title {
+  position: absolute;
+  top: 176px;
+  width: 480px;
+  font-size: 48px;
+  left: 40px;
+  z-index: 1;
+}
+
+#btn-home {
+  position: absolute;
+  top: 376px;
+  left: 40px;
+  z-index: 1;
+}
+
+.yellow-color {
+  color: var(--primary);
+}
+
+.circle1 {
+  height: 41px;
+  width: 41px;
+  background-color: var(--secondary);
+  position: absolute;
+  border-radius: 50%;
+  left: 50%;
+  bottom: 97px;
+}
+
+.circle2 {
+  height: 54px;
+  width: 54px;
+  background-color: var(--secondary);
+  position: absolute;
+  border-radius: 50%;
+  right: 40%;
+  top: 52px;
+}
+
+.circle3 {
+  height: 19px;
+  width: 19px;
+  background-color: var(--secondary);
+  position: absolute;
+  border-radius: 50%;
+  right: 37%;
+  top: 249px;
+}
+
+.circle4 {
+  height: 74px;
+  width: 74px;
+  background-color: var(--secondary);
+  position: absolute;
+  border-radius: 50%;
+  right: 6%;
+  top: 249px;
+}
+
+.food1 {
+  position: absolute;
+  top: 12px;
+  right: 10%;
+  z-index: 1;
+}
+
+.food2 {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  z-index: 1;
+}
+
+.food3 {
+  position: absolute;
+  bottom: 97px;
+  right: 30%;
+  z-index: 1;
+}
+
+.wave1 {
+  position: absolute;
+  bottom: 36px;
+  left: 0%;
+}
+
+.wave2 {
+  position: absolute;
+  bottom: 73px;
+  left: 0%;
+}
+
+@media screen and (min-width: 1260px) {
+  .title,
+  #btn-home {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 948px) {
+  .title {
+    top: 48px;
+  }
+
+  #btn-home {
+    top: 220px;
+  }
+
+  .food1 {
+    right: 25%;
+    top: 170px;
+  }
+
+  .food3 {
+    bottom: 0px;
+    right: 50%;
+  }
+}
+
+@media screen and (max-width: 646px) {
+  .food1 {
+    top: 240px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .food2 {
+    display: none;
+  }
+
+  .food3 {
+    display: none;
+  }
+
+  .circle1,
+  .circle2,
+  .circle3,
+  .circle4,
+  .wave1,
+  .wave2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .title {
+    width: auto;
+    right: 40px;
+    font-size: 44px;
+    min-width: 300px;
+  }
+
+  #btn-home {
+    top: 220px;
+  }
+
+  .food1 {
+    width: 60%;
+
+    top: 290px;
+  }
+}
+
+
+
+@media screen and (max-width: 420px) {
+  #btn-home {
+    top: 290px;
+  }
+
+  .food1 {
+    top: 350px;
+  }
+}

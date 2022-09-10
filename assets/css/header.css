@@ -1,0 +1,173 @@
+.nav-container {
+  background-color: var(--light);
+  padding: 20px 40px 10px 40px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo img{
+  margin-bottom: 10px;
+}
+
+
+.logo a {
+  font-weight: 600;
+  font-size: 24px;
+  color: black;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.logo a:hover{
+  transform: scale(1.05);
+  
+}
+
+.menu-container {
+  display: flex;
+  gap: 39px;
+}
+
+.menu-item {
+  list-style: none;
+}
+
+.menu-item a {
+  color: var(--text-light);
+  font-weight: 500;
+  font-size: 18px;
+  position: relative;
+}
+
+.menu-item a::after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: var(--primary);
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  border-radius: 4px;
+  transition: 1s ease-out;
+  transform-origin: center;
+  transform: scaleX(0%);
+  
+}
+
+.menu-item a:hover::after {
+  transform: scaleX(100%);
+  transition: 0.5s ease-out;
+  
+}
+
+.menu-item a:hover {
+  color: black;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 28px;
+  align-items: center;
+}
+
+.search-icon {
+  width: 24px;
+  cursor: pointer;
+}
+
+.shop-icon {
+  width: 28px;
+  height: 27.44px;
+  cursor: pointer;
+}
+
+.sign-in-icon {
+  width: 15px;
+  height: 17px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.btn{
+  width: 122px;
+  height: 38.13px;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn:hover,
+.search-icon:hover,
+.shop-icon:hover {
+  opacity: 0.8;
+}
+
+.mobile-icon-container{
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .menu-container {
+    display: none;
+  }
+
+  .header-buttons {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: block;
+    height: 4px;
+    width: 25px;
+    border-radius: 8px;
+    background-color: black;
+    position: relative;
+  }
+
+  .mobile-icon-container {
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-mobile::after {
+    content: "";
+    height: 4px;
+    width: 25px;
+    border-radius: 8px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+  }
+
+  .menu-mobile::before {
+    content: "";
+    height: 4px;
+    width: 25px;
+    border-radius: 8px;
+    background-color: black;
+    position: absolute;
+    bottom: 10px;
+  }
+}
