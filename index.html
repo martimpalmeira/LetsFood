@@ -17,31 +17,51 @@
                 <a href="#">Let's Food <img src="./assets/img/header/logo-icon.svg" alt="logo icon"></a>
             </div>
             <ul class="menu-container">
-                <li class="menu-item"><a href="#">Home</a></li>
-                <li class="menu-item"><a href="#">Menu</a></li>
-                <li class="menu-item"><a href="#">How it works</a></li>
-                <li class="menu-item"><a href="#">About</a></li>
-                <li class="menu-item"><a href="#">Contact</a></li>
+                <li class="menu-item"><a href="#home">Home</a></li>
+                <li class="menu-item"><a href="#how-it-works">How it works</a></li>
+                <li class="menu-item"><a href="#menu-container">Menu</a></li>                
+                <li class="menu-item"><a href="#about-us-container">About</a></li>
+                <li class="menu-item"><a href="#footer-container">Contact</a></li>
             </ul>
             <div class="header-buttons">
                 <img class="search-icon" src="./assets/img/header/search-icon.svg" alt="">
-                <img class="shop-icon" src="./assets/img/header/shop-icon.svg" alt="">
-                <button class="btn"><img class="sign-in-icon" src="./assets/img/header/sign-in-icon.svg" alt="">
+                <div class="shop-icon-container">
+                    <img class="shop-icon" src="./assets/img/header/shop-icon.svg" alt="">
+                    <span class="number-liked-foods">1</span>
+                </div>
+                <button class="open-modal-btn"><img class="sign-in-icon" src="./assets/img/header/sign-in-icon.svg" alt="">
                     Sign
                     in</button>
             </div>
             <div class="mobile-icon-container">
                 <span class="menu-mobile"></span>
             </div>
-
+        </nav>
+        <nav class="mobile-nav">
+            <ul class="menu-mobile-container">
+                <li class="menu-item"><a href="#home">Home</a></li>
+                <li class="menu-item"><a href="#how-it-works">How it works</a></li>
+                <li class="menu-item"><a href="#menu-container">Menu</a></li>
+                <li class="menu-item"><a href="#about-us-container">About</a></li>
+                <li class="menu-item"><a href="#footer-container">Contact</a></li>
+                <li class="menu-item"><img class="search-icon" src="./assets/img/header/search-icon.svg" alt=""></li>
+                <li class="menu-item"><div class="shop-icon-container">
+                    <img class="shop-icon" src="./assets/img/header/shop-icon.svg" alt="">
+                    <span class="number-liked-foods">1</span>
+                </div></li>
+                <li class="menu-item"><button class="open-modal-btn" ><img class="sign-in-icon" src="./assets/img/header/sign-in-icon.svg" alt="">
+                    Sign
+                    in</button></li>
+            </ul>
         </nav>
     </header>
+    <div class="consumes-fixed-header-space"></div>
     <main>
         <section id="home">
             <div class="home-container">
                 <div class="title-container">
                     <h1 class="title">Be The Fastest In Delivery Your <span class="yellow-color">Food</span></h1>
-                    <button class="btn" id="btn-home">Get Started</button>
+                    <button onclick="window.location.href ='#how-it-works';" class="btn" id="btn-home">Get Started</button>
                 </div>
                 <img class="food1" src="./assets/img/home/food1.svg" alt="food 1">
                 <img class="food2" src="./assets/img/home/food2.svg" alt="food 2">
@@ -214,10 +234,22 @@
             </div>
         </section>
     </main>
+    <section class="modal-login">
+        <form class="form-login">
+            <span class="x-modal"></span>
+            <h2>Sign In</h2>
+            <input class="input-login" autocomplete="off" id="input-username" name="username" type="text" placeholder="Username">
+            <input class="input-login" autocomplete="off" id="input-password" type="password" placeholder="Password">
+            <button id="login-submit-btn" class="btn">Sign In</button>
+            <a href="">Forgot password?</a>
+            <span class="line" id="line-modal"></span>
+            <p>Don't have an account? <a href="">Create one</a></p>
+        </form>
+    </section>
     <footer id="footer-container">
         <div class="footer">
             <div class="footer-row" id="footer-top">
-                <div class="footer-col">
+                <div class="footer-col" id="lets-food">
                     <div class="footer-logo">
                         <h2>Let's Food</h2>
                         <img src="./assets/img/header/logo-icon.svg" alt="logo icon">
@@ -227,23 +259,23 @@
                         <li class="icon-container"><a href="https://www.linkedin.com/in/martimpalmeira/"
                                 target="_blank"><img src="./assets/img/footer/linkedin-icon.svg"
                                     alt="instagram icon"></a></li>
-                        <li class="icon-container"><a href="https://github.com/martimpalmeira"
-                                target="_blank"><img src="./assets/img/footer/github-icon.svg"
-                                    alt="instagram icon"></a></li>
-                        <li class="icon-container"><a href="https://api.whatsapp.com/send/?phone=5575981290360&text&app_absent=0"
+                        <li class="icon-container"><a href="https://github.com/martimpalmeira" target="_blank"><img
+                                    src="./assets/img/footer/github-icon.svg" alt="instagram icon"></a></li>
+                        <li class="icon-container"><a
+                                href="https://api.whatsapp.com/send/?phone=5575981290360&text&app_absent=0"
                                 target="_blank"><img src="./assets/img/footer/whatsapp-icon.svg"
                                     alt="instagram icon"></a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div class="footer-col" id="company">
                     <h3>Company</h3>
                     <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Career</a></li>
-                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#about-us-container">About Us</a></li>
+                        <li><a href="#banner-container">Career</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div class="footer-col" id="policy">
                     <h3>Policy</h3>
                     <ul>
                         <li><a href="#">FAQ</a></li>
@@ -251,7 +283,7 @@
                         <li><a href="#">Shipping</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div class="footer-col" id="get-in-touch">
                     <h3>Get In Touch</h3>
                     <ul>
                         <li>+55 (75)98129-0360</li>
@@ -270,6 +302,7 @@
             <span class="footer-circle3"></span>
         </div>
     </footer>
+    <script src="./assets/js/script.js" type="module"></script>
 </body>
 
 </html>

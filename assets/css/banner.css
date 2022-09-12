@@ -1,37 +1,47 @@
-#banner-container{
-    height: 492px;
-    width: 100%;
-    background-color: white;
-    padding: 80px 40px;
+#banner-container {
+  height: 492px;
+  width: 100%;
+  background-color: white;
+  padding: 80px 40px;
 }
 
-.banner{
-    max-width: 1180px;
-    margin: 0 auto;
-    background: url('../img/banner/banner-image.svg');
-    background-position: center;
-   
-    border-radius: 10px;
-    
-    height: 332px;
+#banner-container:target{
+  scroll-margin-top: 87px;
 }
 
-.opacity-background{
-    background-color: rgba(0, 0, 0, 0.71);
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: center;
-    gap:30px;
-    text-align: center;
+.banner {
+  max-width: 1180px;
+  margin: 0 auto;
+  background: url("../img/banner/banner-image.svg");
+  background-position: center;
+  border-radius: 10px;
+  height: 332px;
 }
 
-.banner h2{
-    max-width: 524px;
-    font-size: 32px;
-    font-weight: 700;
-    color: white;
+.opacity-background {
+  background-color: rgba(0, 0, 0, 0.71);
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.banner h2 {
+  max-width: 524px;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+
+@media screen and (max-width: 498px) {
+    .banner h2{
+        font-size: 26px;
+    }
 }

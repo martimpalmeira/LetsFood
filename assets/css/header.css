@@ -1,6 +1,9 @@
 .nav-container {
   background-color: var(--light);
-  padding: 20px 40px 10px 40px;
+  padding: 0px 0px 10px 40px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
 }
 
 .nav-bar {
@@ -9,18 +12,21 @@
   align-items: center;
   max-width: 1180px;
   margin: 0 auto;
+  z-index: 10;
+  position: relative;
+  background-color: var(--light);
+  padding-top: 20px;
+  padding-right: 40px;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  
 }
 
-.logo img{
+.logo img {
   margin-bottom: 10px;
 }
-
 
 .logo a {
   font-weight: 600;
@@ -31,9 +37,8 @@
   align-items: center;
 }
 
-.logo a:hover{
+.logo a:hover {
   transform: scale(1.05);
-  
 }
 
 .menu-container {
@@ -64,13 +69,11 @@
   transition: 1s ease-out;
   transform-origin: center;
   transform: scaleX(0%);
-  
 }
 
 .menu-item a:hover::after {
   transform: scaleX(100%);
   transition: 0.5s ease-out;
-  
 }
 
 .menu-item a:hover {
@@ -102,7 +105,7 @@
   vertical-align: middle;
 }
 
-.btn{
+.btn,.open-modal-btn {
   width: 122px;
   height: 38.13px;
   background-color: var(--primary);
@@ -115,15 +118,42 @@
   justify-content: center;
   cursor: pointer;
 }
-
+.open-modal-btn:hover,
 .btn:hover,
 .search-icon:hover,
 .shop-icon:hover {
   opacity: 0.8;
 }
 
-.mobile-icon-container{
+.mobile-icon-container {
   display: none;
+}
+
+.shop-icon-container {
+  position: relative;
+}
+
+.number-liked-foods {
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  top: -8px;
+  right: -8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.consumes-fixed-header-space {
+  height: 87px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -133,6 +163,33 @@
 
   .header-buttons {
     display: none;
+  }
+
+  .mobile-nav {
+    width: 100%;
+    display: flex;
+    transition: 0.5s;
+    justify-content: end;
+    position: fixed;
+    top: -372px;
+    right: 0;
+    padding-right: 40px;
+    z-index: 6;
+    background-color: var(--light);
+    transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  .show-mobile-nav {
+    transform: translateY(calc(100% + 86px));
+    transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  .menu-mobile-container {
+    text-align: end;
+  }
+
+  .menu-mobile-container li {
+    margin-bottom: 20px;
   }
 
   .menu-mobile {

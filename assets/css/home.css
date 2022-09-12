@@ -2,6 +2,11 @@
   background-color: var(--light);
   height: 600px;
   position: relative;
+ 
+}
+
+#home:target{
+  scroll-margin-top: 87px;
 }
 
 .home-container {
@@ -163,7 +168,7 @@
     width: auto;
     right: 40px;
     font-size: 44px;
-    min-width: 300px;
+   
   }
 
   #btn-home {

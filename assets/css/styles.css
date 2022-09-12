@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600;700&display=swap");
 @import url('header.css');
-@import url('home.css');
+@import url('./home.css');
 @import url('howItWorks.css');
 @import url('menu.css');
 @import url('aboutUs.css');
 @import url('banner.css');
 @import url('footer.css');
+@import url('modal-login.css');
 
 :root{
     --light: #FFF9EA;
@@ -20,6 +21,10 @@
   margin: 0;
   font-family: "Readex Pro", sans-serif;
   text-decoration: none;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 

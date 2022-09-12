@@ -1,6 +1,10 @@
 #about-us-container {
   padding: 0 40px;
-  overflow: hidden;
+  overflow: clip;
+}
+
+#about-us-container:target{
+  scroll-margin-top: 110px;
 }
 
 .about-us {
@@ -116,3 +120,17 @@
   left: 210px;
   border: solid 1px grey;
 }
+
+
+
+@media screen and (max-width: 1070px) {
+  .about-us{
+    display: flex;
+    column-gap: 50px;
+  }
+
+  
+
+
+}
+

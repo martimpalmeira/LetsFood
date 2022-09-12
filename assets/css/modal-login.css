@@ -1,0 +1,84 @@
+.modal-login {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: rgba(18, 18, 18, 0.6);
+  z-index: 15;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
+}
+
+.show-modal {
+  display: flex;
+}
+
+.x-modal {
+  height: 2px;
+  width: 15px;
+  background-color: grey;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.x-modal:hover {
+  opacity: 0.7;
+}
+
+.x-modal::after {
+  content: "";
+  height: 2px;
+  width: 15px;
+  background-color: grey;
+  position: absolute;
+  transform: rotate(90deg);
+}
+
+.form-login {
+  background-color: var(--light);
+  border-radius: 10px;
+  height: 400px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.form-login h2 {
+}
+
+.input-login {
+  border: none;
+  border-bottom: 1px rgb(173, 173, 173) solid;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  font-size: 17px;
+  color: var(--text-light);
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.input-login::placeholder {
+  font-size: 17px;
+  color: var(--text-light);
+}
+
+#login-submit-btn {
+  width: 100%;
+}
+
+#line-modal {
+  margin-bottom: 0px;
+}
+
+.form-login a {
+  color: var(--secondary);
+}

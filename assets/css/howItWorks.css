@@ -4,6 +4,10 @@
     padding-right: 40px;
 }
 
+#how-it-works:target{
+    scroll-margin-top: 30px ;
+}
+
 .how-it-works-container{
     margin: 0 auto;
     max-width: 1032px;
@@ -17,11 +21,13 @@
     font-size: 22px;
     margin-bottom: 7px;
     color: var(--primary);
+    
 }
 
 .hiw-subtitle{
     font-size: 32px;
     margin-bottom: 26px;
+    text-align: center;
 }
 
 .hiw-description{

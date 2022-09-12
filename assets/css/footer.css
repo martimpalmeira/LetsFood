@@ -1,7 +1,6 @@
 #footer-container {
   background-color: var(--light);
   padding: 84px 40px 47px 40px;
-  
 }
 
 .footer {
@@ -13,6 +12,7 @@
 .footer-row {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer-col {
@@ -34,7 +34,6 @@
 
 .footer-col .address {
   max-width: 380px;
-  font-size: 20px;
   font-weight: 400;
   margin-bottom: 32px;
 }
@@ -52,6 +51,7 @@
 .footer-col li {
   list-style: none;
   margin-bottom: 16px;
+  word-wrap: break-word;
 }
 
 .footer-col li a,
@@ -117,4 +117,73 @@
   position: absolute;
   top: 20px;
   right: 3%;
+}
+
+@media screen and (max-width: 1020px) {
+  #get-in-touch {
+    width: 50%;
+  }
+
+  #footer-top {
+    padding-right: 200px;
+  }
+
+  .footer-row {
+    row-gap: 50px;
+  }
+
+
+
+  #footer-top {
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 852px) {
+
+  .footer-circle1, .footer-circle2, .footer-circle3{
+    display: none;
+  }
+
+  #policy {
+    float: right;
+    width: 50%;
+  }
+
+  #footer-top {
+    padding-right: 0px;
+  }
+
+
+  #lets-food, #policy{
+    width: 65%;
+  }
+
+  #lets-food{
+    max-width: 250px;
+  }
+
+  #company, #get-in-touch{
+    width: 35%;
+  }
+
+}
+
+
+@media screen and (max-width: 546px) {
+  .footer-row{
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  #footer-bottom{
+    text-align: center;
+  }
+
+  #company, #get-in-touch, #lets-food{
+    width: 100%;
+    max-width: none;
+  }
+
+  
 }
