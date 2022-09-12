@@ -14,27 +14,30 @@
     <header class="nav-container">
         <nav class="nav-bar">
             <div class="logo">
-                <a href="#">Let's Food <img src="./assets/img/header/logo-icon.svg" alt="logo icon"></a>
+                <a href="#home">Let's Food <img src="./assets/img/header/logo-icon.svg" alt="logo icon"></a>
             </div>
             <ul class="menu-container">
                 <li class="menu-item"><a href="#home">Home</a></li>
                 <li class="menu-item"><a href="#how-it-works">How it works</a></li>
-                <li class="menu-item"><a href="#menu-container">Menu</a></li>                
+                <li class="menu-item"><a href="#menu-container">Menu</a></li>
                 <li class="menu-item"><a href="#about-us-container">About</a></li>
                 <li class="menu-item"><a href="#footer-container">Contact</a></li>
             </ul>
             <div class="header-buttons">
                 <img class="search-icon" src="./assets/img/header/search-icon.svg" alt="">
-                <div class="shop-icon-container">
+                <div onclick="window.location.href ='#menu-container';" class="shop-icon-container">
                     <img class="shop-icon" src="./assets/img/header/shop-icon.svg" alt="">
                     <span class="number-liked-foods">1</span>
                 </div>
-                <button class="open-modal-btn"><img class="sign-in-icon" src="./assets/img/header/sign-in-icon.svg" alt="">
+                <button class="open-modal-btn"><img class="sign-in-icon" src="./assets/img/header/sign-in-icon.svg"
+                        alt="">
                     Sign
                     in</button>
             </div>
             <div class="mobile-icon-container">
-                <span class="menu-mobile"></span>
+                <span class="hamburguer-icon-item" id="hamburguer-top"></span>
+                <span class="hamburguer-icon-item" id="hamburguer-mid"></span>
+                <span class="hamburguer-icon-item" id="hamburguer-bot"></span>
             </div>
         </nav>
         <nav class="mobile-nav">
@@ -45,13 +48,16 @@
                 <li class="menu-item"><a href="#about-us-container">About</a></li>
                 <li class="menu-item"><a href="#footer-container">Contact</a></li>
                 <li class="menu-item"><img class="search-icon" src="./assets/img/header/search-icon.svg" alt=""></li>
-                <li class="menu-item"><div class="shop-icon-container">
-                    <img class="shop-icon" src="./assets/img/header/shop-icon.svg" alt="">
-                    <span class="number-liked-foods">1</span>
-                </div></li>
-                <li class="menu-item"><button class="open-modal-btn" ><img class="sign-in-icon" src="./assets/img/header/sign-in-icon.svg" alt="">
-                    Sign
-                    in</button></li>
+                <li class="menu-item">
+                    <div class="shop-icon-container" onclick="window.location.href ='#menu-container';">
+                        <img class="shop-icon" src="./assets/img/header/shop-icon.svg" alt="">
+                        <span class="number-liked-foods">1</span>
+                    </div>
+                </li>
+                <li class="menu-item"><button class="open-modal-btn"><img class="sign-in-icon"
+                            src="./assets/img/header/sign-in-icon.svg" alt="">
+                        Sign
+                        in</button></li>
             </ul>
         </nav>
     </header>
@@ -61,7 +67,8 @@
             <div class="home-container">
                 <div class="title-container">
                     <h1 class="title">Be The Fastest In Delivery Your <span class="yellow-color">Food</span></h1>
-                    <button onclick="window.location.href ='#how-it-works';" class="btn" id="btn-home">Get Started</button>
+                    <button onclick="window.location.href ='#how-it-works';" class="btn" id="btn-home">Get
+                        Started</button>
                 </div>
                 <img class="food1" src="./assets/img/home/food1.svg" alt="food 1">
                 <img class="food2" src="./assets/img/home/food2.svg" alt="food 2">
@@ -238,7 +245,8 @@
         <form class="form-login">
             <span class="x-modal"></span>
             <h2>Sign In</h2>
-            <input class="input-login" autocomplete="off" id="input-username" name="username" type="text" placeholder="Username">
+            <input class="input-login" autocomplete="off" id="input-username" name="username" type="text"
+                placeholder="Username">
             <input class="input-login" autocomplete="off" id="input-password" type="password" placeholder="Password">
             <button id="login-submit-btn" class="btn">Sign In</button>
             <a href="">Forgot password?</a>

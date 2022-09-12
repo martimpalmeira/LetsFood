@@ -62,7 +62,7 @@
   outline: none;
   font-size: 17px;
   color: var(--text-light);
-  padding-left: 10px;
+  padding-left: 30px;
   padding-bottom: 5px;
 }
 
@@ -81,4 +81,19 @@
 
 .form-login a {
   color: var(--secondary);
+}
+
+
+#input-username{
+  background: url('../img/modal-login/user-icon.svg');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 5px 0px;
+}
+
+#input-password{
+  background: url('../img/modal-login/password-icon.svg');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 5px 0px;
 }

@@ -105,7 +105,8 @@
   vertical-align: middle;
 }
 
-.btn,.open-modal-btn {
+.btn,
+.open-modal-btn {
   width: 122px;
   height: 38.13px;
   background-color: var(--primary);
@@ -192,39 +193,40 @@
     margin-bottom: 20px;
   }
 
-  .menu-mobile {
+  .hamburguer-icon-item {
     display: block;
     height: 4px;
     width: 25px;
     border-radius: 8px;
     background-color: black;
     position: relative;
+    transition: 0.5s ease-out;
+  }
+
+  .changeSpanMid {
+    transform: rotate(-135deg);
+    transition: 0.5s ease-out;
+    position: absolute;
+    background-color: transparent;
+  }
+
+  .changeSpanTop {
+    transform: rotate(135deg);
+    transition: 0.5s ease-out;
+  }
+
+  .changeSpanBot {
+    transform: rotate(-135deg);
+    transition: 0.5s ease-out;
+    position: absolute;
   }
 
   .mobile-icon-container {
-    height: 30px;
+    height: 20px;
     cursor: pointer;
     display: flex;
     align-items: center;
-  }
-
-  .menu-mobile::after {
-    content: "";
-    height: 4px;
-    width: 25px;
-    border-radius: 8px;
-    background-color: black;
-    position: absolute;
-    top: 10px;
-  }
-
-  .menu-mobile::before {
-    content: "";
-    height: 4px;
-    width: 25px;
-    border-radius: 8px;
-    background-color: black;
-    position: absolute;
-    bottom: 10px;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
