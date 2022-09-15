@@ -20,6 +20,7 @@
     font-weight: 500;
     color: var(--primary);
     margin-bottom: 6px;
+    text-align: center;
 }
 
 .menu-section-subtitle{
@@ -35,6 +36,11 @@
     max-width: 518px;
     text-align: center;
     margin-bottom: 32px;
+    font-weight: 400;
+}
+
+.animation-menu{
+    opacity: 0;
 }
 
 .card-container{
@@ -49,7 +55,7 @@
 .card-item{
     box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
-    
+    opacity: 0;
 }
 
 #btn-more-menu{
@@ -62,6 +68,16 @@
 
 .food-image-container{
     background-color: #F1F1F1;
+    overflow: hidden;
+}
+
+.food-image{
+    transition:.5s ease;
+}
+
+.food-image:hover{
+    transform: scale(1.1) rotate(35deg);
+    transition: ease .5s;
 }
 
 .food-description-container{

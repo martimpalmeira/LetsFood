@@ -29,8 +29,8 @@
                     <img class="shop-icon" src="./assets/img/header/shop-icon.svg" alt="">
                     <span class="number-liked-foods">1</span>
                 </div>
-                <button class="open-modal-btn"><img class="sign-in-icon" src="./assets/img/header/sign-in-icon.svg"
-                        alt="">
+                <button class="open-modal-btn" id="header-btn"><img class="sign-in-icon"
+                        src="./assets/img/header/sign-in-icon.svg" alt="">
                     Sign
                     in</button>
             </div>
@@ -83,11 +83,15 @@
         </section>
         <section id="how-it-works">
             <div class="how-it-works-container">
-                <h2 class="hiw-title">How it works</h2>
-                <h3 class="hiw-subtitle">What We Serve</h3>
-                <p class="hiw-description">Product Quality Is Our Priority, And Always Guarantees Halal And Safety Until
-                    It Is In Your Hands.
-                </p>
+                <div class="animation-hiw">
+                    <h2 class="hiw-title">How it works</h2>
+                    <h3 class="hiw-subtitle">What We Serve</h3>
+                    <p class="hiw-description">Product Quality Is Our Priority, And Always Guarantees Halal And Safety
+                        Until
+                        It Is In Your Hands.
+                    </p>
+                </div>
+
                 <div class="services-container">
                     <div class="service-item">
                         <img src="./assets/img/howItWorks/order.svg" alt="">
@@ -109,10 +113,13 @@
         </section>
         <section id="menu-container">
             <div class="menu-section">
-                <h2 class="menu-section-title">Our menu</h2>
-                <h3 class="menu-section-subtitle">Our Popular Menu</h3>
-                <p class="menu-section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam
-                </p>
+                <div class="animation-menu">
+                    <h2 class="menu-section-title">Our menu</h2>
+                    <h3 class="menu-section-subtitle">Our Popular Menu</h3>
+                    <p class="menu-section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                        aliquam
+                    </p>
+                </div>
                 <div class="card-container">
                     <div class="card-item">
                         <div class="food-image-container">
@@ -168,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-                <button id="btn-more-menu" class="btn">More Menu</button>
+                <button onclick="window.location.href ='#banner-container';" id="btn-more-menu" class="btn">More Menu</button>
             </div>
 
         </section>
@@ -303,7 +310,8 @@
                 <span class="line"></span>
             </div>
             <div class="footer-row" id="footer-bottom">
-                <p>© 2022 Let’sFood. Made By Martim Palmeira.</p>
+                <p>© 2022 Let’sFood. Design credits to Rauliqbal, this site was made for study purposes only.
+                    Made By <a target="_blank" href="https://github.com/martimpalmeira">Martim Palmeira</a>.</p>
             </div>
             <span class="footer-circle1"></span>
             <span class="footer-circle2"></span>

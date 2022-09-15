@@ -4,6 +4,9 @@
   position: fixed;
   z-index: 10;
   width: 100%;
+  
+ 
+  
 }
 
 .nav-bar {
@@ -17,11 +20,16 @@
   background-color: var(--light);
   padding-top: 20px;
   padding-right: 40px;
+  
+  
 }
 
 .logo {
   display: flex;
   align-items: center;
+  opacity: 0;
+  animation: fade-in-up 1s forwards;
+  
 }
 
 .logo img {
@@ -35,6 +43,7 @@
   margin-right: 4px;
   display: flex;
   align-items: center;
+  
 }
 
 .logo a:hover {
@@ -48,6 +57,9 @@
 
 .menu-item {
   list-style: none;
+  opacity: 0;
+  animation: fade-in-up 1s forwards;
+  animation-delay: 0.3s;
 }
 
 .menu-item a {
@@ -55,6 +67,7 @@
   font-weight: 500;
   font-size: 18px;
   position: relative;
+  
 }
 
 .menu-item a::after {
@@ -66,14 +79,15 @@
   left: 0;
   bottom: -5px;
   border-radius: 4px;
-  transition: 1s ease-out;
-  transform-origin: center;
+  transition:transform 0.5s ease;
+  transform-origin: right;
   transform: scaleX(0%);
 }
 
 .menu-item a:hover::after {
   transform: scaleX(100%);
-  transition: 0.5s ease-out;
+  transition:transform 0.5s ease;
+  transform-origin: left;
 }
 
 .menu-item a:hover {
@@ -90,12 +104,16 @@
 .search-icon {
   width: 24px;
   cursor: pointer;
+  opacity: 0;
+  animation: fade-in-up 1s forwards;
+  animation-delay: 0.4s;
 }
 
 .shop-icon {
   width: 28px;
   height: 27.44px;
   cursor: pointer;
+  
 }
 
 .sign-in-icon {
@@ -103,6 +121,7 @@
   height: 17px;
   margin-right: 12px;
   vertical-align: middle;
+  
 }
 
 .btn,
@@ -126,12 +145,21 @@
   opacity: 0.8;
 }
 
+#header-btn{
+  opacity: 0;
+  animation: fade-in-up 1s forwards;
+  animation-delay: 0.6s;
+}
+
 .mobile-icon-container {
   display: none;
 }
 
 .shop-icon-container {
   position: relative;
+  opacity: 0;
+  animation: fade-in-up 1s forwards;
+  animation-delay: 0.5s;
 }
 
 .number-liked-foods {

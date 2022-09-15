@@ -21,6 +21,7 @@
     font-size: 22px;
     margin-bottom: 7px;
     color: var(--primary);
+    text-align: center;
     
 }
 
@@ -37,6 +38,13 @@
     margin-bottom: 32px;
 }
 
+.animation-hiw{
+    opacity: 0;
+   
+}
+
+
+
 .services-container{
     display: flex;
     row-gap: 32px;
@@ -49,7 +57,7 @@
     text-align: center;
     width: 241px;
     height: 316px;
-
+    opacity: 0;
 }
 
 .service-item img{
@@ -67,4 +75,6 @@
 .service-item p{
     font-size: 20px;
 }
+
+
 
