@@ -1,80 +1,73 @@
-#how-it-works{
-    padding-top: 80px;
-    padding-left: 40px;
-    padding-right: 40px;
+#how-it-works {
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-#how-it-works:target{
-    scroll-margin-top: 30px ;
+#how-it-works:target {
+  scroll-margin-top: 30px;
 }
 
-.how-it-works-container{
-    margin: 0 auto;
-    max-width: 1032px;
-    display: flex;
-    flex-direction: column;
-   align-items: center;
-   margin-bottom: 80px;
+.how-it-works-container {
+  margin: 0 auto;
+  max-width: 1032px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
 }
 
-.hiw-title{
-    font-size: 22px;
-    margin-bottom: 7px;
-    color: var(--primary);
-    text-align: center;
-    
+.hiw-title {
+  font-size: 22px;
+  margin-bottom: 7px;
+  color: var(--primary);
+  text-align: center;
 }
 
-.hiw-subtitle{
-    font-size: 32px;
-    margin-bottom: 26px;
-    text-align: center;
+.hiw-subtitle {
+  font-size: 32px;
+  margin-bottom: 26px;
+  text-align: center;
 }
 
-.hiw-description{
-    max-width: 611px;
-    font-size: 22px;
-    text-align: center;
-    margin-bottom: 32px;
+.hiw-description {
+  max-width: 611px;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
-.animation-hiw{
-    opacity: 0;
-   
+.animation-hiw {
+  opacity: 0;
 }
 
-
-
-.services-container{
-    display: flex;
-    row-gap: 32px;
-    column-gap: 120px;
-    flex-wrap: wrap;
-    justify-content: center;
+.services-container {
+  display: flex;
+  row-gap: 32px;
+  column-gap: 120px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.service-item{
-    text-align: center;
-    width: 241px;
-    height: 316px;
-    opacity: 0;
+.service-item {
+  text-align: center;
+  width: 241px;
+  height: 316px;
+  opacity: 0;
 }
 
-.service-item img{
-    width: 180px;
-    height: 180px;
-    margin-bottom: 24px;
+.service-item img {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 24px;
 }
 
-.service-item h4{
-    margin-bottom: 15px;
-    font-weight: 600;
-    font-size: 28px;
+.service-item h4 {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 28px;
 }
 
-.service-item p{
-    font-size: 20px;
+.service-item p {
+  font-size: 20px;
 }
-
-
-

@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600;700&display=swap");
-@import url('header.css');
-@import url('./home.css');
-@import url('howItWorks.css');
-@import url('menu.css');
-@import url('aboutUs.css');
-@import url('banner.css');
-@import url('footer.css');
-@import url('modal-login.css');
-@import url('animations.css');
+@import url("header.css");
+@import url("./home.css");
+@import url("howItWorks.css");
+@import url("menu.css");
+@import url("aboutUs.css");
+@import url("banner.css");
+@import url("footer.css");
+@import url("modal-login.css");
+@import url("animations.css");
 
-:root{
-    --light: #FFF9EA;
-    --text-light: #1d1d1db3;
-    --primary: #FFCB45;
-    --secondary: #FFAC4B;
+:root {
+  --light: #fff9ea;
+  --text-light: #1d1d1db3;
+  --primary: #ffcb45;
+  --secondary: #ffac4b;
 }
 
 * {
@@ -24,35 +24,26 @@
   text-decoration: none;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
 /* width */
 html::-webkit-scrollbar {
   width: 10px;
- 
-  
 }
 
 /* Track */
 html::-webkit-scrollbar-track {
   background: var(--light);
-  
 }
 
 /* Handle */
 html::-webkit-scrollbar-thumb {
   background-color: var(--primary);
-  
-  
 }
 
 /* Handle on hover */
 html::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 203, 69, 0.6);
 }
-
-
-
-

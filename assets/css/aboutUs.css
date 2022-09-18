@@ -4,7 +4,7 @@
   overflow: clip;
 }
 
-#about-us-container:target{
+#about-us-container:target {
   scroll-margin-top: 110px;
 }
 
@@ -50,7 +50,6 @@
   position: relative;
   overflow: hidden;
   opacity: 0;
-  
 }
 
 .about-text-container h2 {
@@ -72,11 +71,9 @@
   gap: 24px;
   height: 220px;
   width: 300%;
-  
 }
 
-
-#profile3{
+#profile3 {
   height: 60px;
   border-radius: 50%;
 }
@@ -112,7 +109,6 @@
   bottom: 57px;
   cursor: pointer;
   left: 5px;
-  
 }
 
 .dot2 {
@@ -125,7 +121,6 @@
   cursor: pointer;
   left: 30px;
   opacity: 0.4;
-  
 }
 
 .dot3 {
@@ -138,78 +133,69 @@
   cursor: pointer;
   left: 55px;
   opacity: 0.4;
- 
 }
 
-
-
 @media screen and (max-width: 1070px) {
-  .about-us{
+  .about-us {
     display: flex;
     column-gap: 50px;
   }
 }
 
 @media screen and (max-width: 996px) {
-    .about-us{
-      flex-direction: column;
-      align-items: center;
-      row-gap: 30px;
-    }
+  .about-us {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
 
-    .about-food-container{
-      max-width: none;
-      width: 80%;
-    }
-    .about-food1{
-      width: 100%;
-    }
+  .about-food-container {
+    max-width: none;
+    width: 80%;
+  }
+  .about-food1 {
+    width: 100%;
+  }
 
-    .about-food2{
-      width: 100%;
-    }
+  .about-food2 {
+    width: 100%;
+  }
 
-    .about-food3{
-      width: 100%;
-    }
+  .about-food3 {
+    width: 100%;
+  }
 
-    .dot1, .dot2, .dot3{
-      bottom: 0;
-    }
+  .dot1,
+  .dot2,
+  .dot3 {
+    bottom: 0;
+  }
 
-    .comments-container{
-      width: 300%;
-      height: 220px;
-      
-    }
+  .comments-container {
+    width: 300%;
+    height: 220px;
+  }
 
-    .comment{
-      min-width: 33.3333%;
-    }
+  .comment {
+    min-width: 33.3333%;
+  }
 
-    .about-text-container{
-      overflow: hidden;
-      width: 100%;
-    }
+  .about-text-container {
+    overflow: hidden;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 412px) {
-  .comment{
-    height: auto;
-    
-  }
-
-  .comments-container{
+  .comment {
     height: auto;
   }
 
-  .about-text-container{
+  .comments-container {
+    height: auto;
+  }
+
+  .about-text-container {
     padding-bottom: 20px;
   }
-
-  
-
-  
-
 }
-

@@ -83,16 +83,15 @@
   color: var(--secondary);
 }
 
-
-#input-username{
-  background: url('../img/modal-login/user-icon.svg');
+#input-username {
+  background: url("../img/modal-login/user-icon.svg");
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: 5px 0px;
 }
 
-#input-password{
-  background: url('../img/modal-login/password-icon.svg');
+#input-password {
+  background: url("../img/modal-login/password-icon.svg");
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: 5px 0px;

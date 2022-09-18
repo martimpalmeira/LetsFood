@@ -1,159 +1,144 @@
-#menu-container{
-    padding: 0 40px;
+#menu-container {
+  padding: 0 40px;
 }
 
-#menu-container:target{
-    scroll-margin-top: 90px;
+#menu-container:target {
+  scroll-margin-top: 90px;
 }
 
-.menu-section{
-    margin: 0 auto;
-    max-width: 1180px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+.menu-section {
+  margin: 0 auto;
+  max-width: 1180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.menu-section-title{
-    font-size: 22px;
-    font-weight: 500;
-    color: var(--primary);
-    margin-bottom: 6px;
-    text-align: center;
+.menu-section-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--primary);
+  margin-bottom: 6px;
+  text-align: center;
 }
 
-.menu-section-subtitle{
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 27px;
-    text-align: center;
+.menu-section-subtitle {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 27px;
+  text-align: center;
 }
 
-.menu-section-description{
-    font-size: 22px;
-    font-weight: 500;
-    max-width: 518px;
-    text-align: center;
-    margin-bottom: 32px;
-    font-weight: 400;
+.menu-section-description {
+  font-size: 22px;
+  font-weight: 500;
+  max-width: 518px;
+  text-align: center;
+  margin-bottom: 32px;
+  font-weight: 400;
 }
 
-.animation-menu{
-    opacity: 0;
+.animation-menu {
+  opacity: 0;
 }
 
-.card-container{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 70px;
-    
+.card-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
 }
 
-.card-item{
-    box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-    opacity: 0;
+.card-item {
+  box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  opacity: 0;
 }
 
-#btn-more-menu{
-    margin-bottom: 45px;
+#btn-more-menu {
+  margin-bottom: 45px;
 }
 
-.card-item .food-image{
-    width: 230px;
+.card-item .food-image {
+  width: 230px;
 }
 
-.food-image-container{
-    background-color: #F1F1F1;
-    
+.food-image-container {
+  background-color: #f1f1f1;
 }
 
-.food-image{
-    transition:.5s ease;
+.food-image {
+  transition: 0.5s ease;
 }
 
-.food-image:hover{
-    transform: scale(1.1) rotate(35deg);
-    transition: ease .5s;
+.food-image:hover {
+  transform: scale(1.1) rotate(35deg);
+  transition: ease 0.5s;
 }
 
-.food-description-container{
-    width: 100%;
-    padding: 13px 22px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.food-description-container {
+  width: 100%;
+  padding: 13px 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.food-description-container h4{
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 5px;
+.food-description-container h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
-.food-description-container .food-subtitle{
-    color: var(--text-light);
-    margin-bottom: 13px;
-
+.food-description-container .food-subtitle {
+  color: var(--text-light);
+  margin-bottom: 13px;
 }
 
-.card-price-rating{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+.card-price-rating {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.price{
-    font-weight: 500;
-    font-size: 22px;
+.price {
+  font-weight: 500;
+  font-size: 22px;
 }
 
-.rating{
-    width: 24px;
-    cursor: pointer;
+.rating {
+  width: 24px;
+  cursor: pointer;
 }
-
 
 @media screen and (max-width: 1095px) {
-    .card-item{
-        width: 400px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .card-item {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .card-container{
-        justify-content: space-around;
-        row-gap: 60px;
-        
-    }
+  .card-container {
+    justify-content: space-around;
+    row-gap: 60px;
+  }
 }
 
 @media screen and (max-width: 966px) {
-    .card-item{
-        flex-direction: column;
-        width:auto;
+  .card-item {
+    flex-direction: column;
+    width: auto;
+  }
 
-    }
-
-    .card-container{
-        max-width: 600px;
-    }
+  .card-container {
+    max-width: 600px;
+  }
 }
 
 @media screen and (max-width: 613px) {
-    .card-container{
-        max-width: 300px;
-        
-    }
-
-    
-    
-
-    
-
-    
+  .card-container {
+    max-width: 300px;
+  }
 }

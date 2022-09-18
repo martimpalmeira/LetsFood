@@ -2,10 +2,10 @@
   background-color: var(--light);
   height: 600px;
   position: relative;
- overflow: clip;
+  overflow: clip;
 }
 
-#home:target{
+#home:target {
   scroll-margin-top: 87px;
 }
 
@@ -51,7 +51,7 @@
   border-radius: 50%;
   left: 50%;
   bottom: 97px;
-  animation: fade-in-up 1s cubic-bezier(.61,1.99,.79,1.28) forwards;
+  animation: fade-in-up 1s cubic-bezier(0.61, 1.99, 0.79, 1.28) forwards;
   animation-delay: 2.5s;
   opacity: 0;
 }
@@ -64,7 +64,7 @@
   border-radius: 50%;
   right: 40%;
   top: 52px;
-  animation: fade-in-up 1s cubic-bezier(.61,1.99,.79,1.28) forwards;
+  animation: fade-in-up 1s cubic-bezier(0.61, 1.99, 0.79, 1.28) forwards;
   animation-delay: 2.7s;
   opacity: 0;
 }
@@ -77,7 +77,7 @@
   border-radius: 50%;
   right: 37%;
   top: 249px;
-  animation: fade-in-up 1s cubic-bezier(.61,1.99,.79,1.28) forwards;
+  animation: fade-in-up 1s cubic-bezier(0.61, 1.99, 0.79, 1.28) forwards;
   animation-delay: 2.9s;
   opacity: 0;
 }
@@ -90,7 +90,7 @@
   border-radius: 50%;
   right: 6%;
   top: 249px;
-  animation: fade-in-up 1s cubic-bezier(.61,1.99,.79,1.28) forwards;
+  animation: fade-in-up 1s cubic-bezier(0.61, 1.99, 0.79, 1.28) forwards;
   animation-delay: 3.1s;
   opacity: 0;
 }
@@ -201,7 +201,6 @@
     width: auto;
     right: 40px;
     font-size: 44px;
-   
   }
 
   #btn-home {
@@ -214,8 +213,6 @@
     top: 290px;
   }
 }
-
-
 
 @media screen and (max-width: 420px) {
   #btn-home {

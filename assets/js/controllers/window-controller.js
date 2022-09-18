@@ -36,7 +36,7 @@ export function init() {
     footerCol.forEach(i => {
         if (count % 2 == 0) {
             handleScrollWindowUp(i);
-        }else{
+        } else {
             handleScrollWindowDown(i);
         }
         i.style.animationDelay = "0." + countFooterCol + "s";
@@ -68,7 +68,7 @@ export function init() {
         footerCol.forEach(i => {
             if (countScroll % 2 == 0) {
                 handleScrollWindowUp(i);
-            }else{
+            } else {
                 handleScrollWindowDown(i);
             }
             countScroll++;

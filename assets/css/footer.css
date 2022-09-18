@@ -86,7 +86,7 @@
   margin: 0 auto;
 }
 
-#footer-bottom a{
+#footer-bottom a {
   color: var(--secondary);
 }
 
@@ -140,16 +140,15 @@
     row-gap: 50px;
   }
 
-
-
   #footer-top {
     padding-right: 100px;
   }
 }
 
 @media screen and (max-width: 852px) {
-
-  .footer-circle1, .footer-circle2, .footer-circle3{
+  .footer-circle1,
+  .footer-circle2,
+  .footer-circle3 {
     display: none;
   }
 
@@ -162,36 +161,35 @@
     padding-right: 0px;
   }
 
-
-  #lets-food, #policy{
+  #lets-food,
+  #policy {
     width: 65%;
   }
 
-  #lets-food{
+  #lets-food {
     max-width: 250px;
   }
 
-  #company, #get-in-touch{
+  #company,
+  #get-in-touch {
     width: 35%;
   }
-
 }
 
-
 @media screen and (max-width: 546px) {
-  .footer-row{
+  .footer-row {
     flex-direction: column;
     margin-bottom: 50px;
   }
 
-  #footer-bottom{
+  #footer-bottom {
     text-align: center;
   }
 
-  #company, #get-in-touch, #lets-food{
+  #company,
+  #get-in-touch,
+  #lets-food {
     width: 100%;
     max-width: none;
   }
-
-  
 }
