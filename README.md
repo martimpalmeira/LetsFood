@@ -32,6 +32,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### 🛠 Contributors
 <table>
   <tr>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/90350690?s=400&u=2d6ee761e0016bb33bb83e01551764d60c4181f1&v=4" width="100px;" alt=""/><br /><sub><b>Martim Palmeira</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat">👨‍🚀</a></td>
+    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/90350690?s=400&u=2d6ee761e0016bb33bb83e01551764d60c4181f1&v=4" width="100px;" alt=""/><br /><sub><b>Martim Palmeira</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat"></a></td>
   </tr>
 </table>
