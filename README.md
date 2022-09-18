@@ -36,6 +36,8 @@
 <img width="100%" src="https://github.com/martimpalmeira/TesteGit/blob/main/letsfood-apresentacao.gif?raw=true" alt="application-gif">
 </p>
 
+
+
 📌 Topics 
 =================
 <!--ts-->
@@ -48,11 +50,22 @@
 
 📄 Description
 =================
-> This project was developed with the aim of applying and improving knowledge in the fundamentals of front end development of web applications with html5, css3 and JavaScript es6 technologies. As a layout reference, a design made by Rauliqbal was used. The project consists of a landing page for a restaurant that provides delivery service
+> This project was developed with the aim of applying and improving knowledge in the fundamentals of front end development of web applications with html5, css3 and JavaScript es6 technologies. As a layout reference, a design made by Rauliqbal was used. The project consists of a landing page for a restaurant that provides delivery service.
+
 <p align="center">
 <img width="100%" src="https://github.com/martimpalmeira/TesteGit/blob/main/Captura%20de%20Tela%202022-09-18%20a%CC%80s%2015.33.19.png?raw=true" >
 </p>
-<p align="center" ><a href="https://www.figma.com/file/vXZNcle5g3b9icZE3RLuVN/Let's-Food-UI-Kit---Landing-Page-(Community)?node-id=203%3A134">Let`s Food UI Kit</a></p>
+
+<a href="https://lets-food.netlify.app/"> `Let's Food Deployment` </a>
+
+<a text-align="center" align="center" href="https://www.figma.com/file/vXZNcle5g3b9icZE3RLuVN/Let's-Food-UI-Kit---Landing-Page-(Community)?node-id=203%3A134"> `Let's Food UI Kit` </a> 
+
+
+
+
+
+
+
 
 
 🚀 Technologies
@@ -60,10 +73,10 @@
 
 The following tools were used in building the project:
 
-- [Html](https://expo.io/)
-- [Css](https://nodejs.org/en/)
-- [JavaScript](https://pt-br.reactjs.org/)
-- [Visual Studio Code](https://pt-br.reactjs.org/)
+- [Html](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
 🎯 Features
 =================
@@ -87,7 +100,7 @@ The following tools were used in building the project:
 
 📑 Licence
 =================
-This project is under license. See the <a href="https://github.com/martimpalmeira/Lets-Food/blob/main/LICENSE">LICENSE</a> file for more details.
+This project is under license. See the <a href="https://github.com/martimpalmeira/Lets-Food/blob/main/LICENSE">MIT LICENSE</a> file for more details.
 
 
 <a href="#lets-food-">Back to top</a>
