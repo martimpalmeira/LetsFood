@@ -67,14 +67,15 @@ The following tools were used in building the project:
 
 🎯 Features
 =================
-✔️ Responsiveness Design<br>
-✔️ Modal implementation<br>
-✔️ Mobile Menu<br>
-✔️ Animations with KeyFrames<br>
-✔️ Carousel Slider<br>
-✔️ Grid-Template properties<br>
-✔️ Flexbox properties<br>
-
+<pre>
+✔️ Responsiveness Design
+✔️ Modal implementation
+✔️ Mobile Menu
+✔️ Animations with KeyFrames
+✔️ Carousel Slider
+✔️ Grid-Template properties
+✔️ Flexbox properties
+</pre>
 
 👤 Contributors
 =================
