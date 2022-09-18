@@ -39,11 +39,11 @@
 📌 Topics 
 =================
 <!--ts-->
-   * [Description](#description)
-   * [Technologies](#technologies)
-   * [What was learned?](#what-was-learned?)
-   * [Contributers](#contributers)
-   * [Licence](#licence)
+   * [Description](#-description)
+   * [Technologies](#-technologies)
+   * [Features](#-features)
+   * [Contributors](#-contributors)
+   * [Licence](#-licence)
 <!--te-->
 
 📄 Description
@@ -65,7 +65,7 @@ The following tools were used in building the project:
 - [JavaScript](https://pt-br.reactjs.org/)
 - [Visual Studio Code](https://pt-br.reactjs.org/)
 
-🎯 What was learned?
+🎯 Features
 =================
 ✔️ Responsiveness Design<br>
 ✔️ Modal implementation<br>
