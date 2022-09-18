@@ -11,7 +11,10 @@
 <img src="https://img.shields.io/github/license/martimpalmeira/Lets-Food?style=for-the-badge" alt="Licence">
 </a>
 
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/martimpalmeira/Lets-Food?color=green&style=for-the-badge">
+
+<a href="https://github.com/martimpalmeira/Lets-Food/issues">
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/martimpalmeira/Lets-Food?color=green&style=for-the-badge">
+</a>
 
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/martimpalmeira/Lets-Food?style=for-the-badge">
 
