@@ -3,13 +3,15 @@
 
 <p align="center">
 
+<a  href="https://app.netlify.com/sites/lets-food/deploys">
+<img alt="Netlify" src="https://img.shields.io/badge/Status-Active-00C7B7?style=for-the-badge&logo=Netlify">
+</a>
+
 <a  href="https://github.com/martimpalmeira/Lets-Food/blob/main/LICENSE">
 <img src="https://img.shields.io/github/license/martimpalmeira/Lets-Food?style=for-the-badge" alt="Licence">
 </a>
 
-<a  href="https://app.netlify.com/sites/lets-food/deploys">
-<img alt="Netlify" src="https://img.shields.io/netlify/3f57be6f-1721-4724-b47a-5579d1b3ce47?style=for-the-badge">
-</a>
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/martimpalmeira/Lets-Food?color=green&style=for-the-badge">
 
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/martimpalmeira/Lets-Food?style=for-the-badge">
 
@@ -17,13 +19,11 @@
 
 <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/martimpalmeira/Lets-Food?style=for-the-badge">
 
-</p>
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/martimpalmeira/Lets-Food?color=red&logo=GitHub&style=for-the-badge">
 
-<p align="center">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/martimpalmeira/Lets-Food?color=red&logo=git&style=for-the-badge">
 
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/martimpalmeira/Lets-Food?color=red&style=for-the-badge">
-
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/martimpalmeira/Lets-Food?color=red&style=for-the-badge">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/martimpalmeira/Lets-Food?color=orange&style=for-the-badge">
 
 </p>
 
@@ -32,7 +32,7 @@
 
 
 <p align="center">
-<img width="70%" src="https://github.com/martimpalmeira/TesteGit/blob/main/letsfood-apresentacao.gif?raw=true" alt="application-gif">
+<img width="100%" src="https://github.com/martimpalmeira/TesteGit/blob/main/letsfood-apresentacao.gif?raw=true" alt="application-gif">
 </p>
 
 Topics
