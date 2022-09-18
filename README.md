@@ -15,8 +15,6 @@
 
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/martimpalmeira/Lets-Food?style=for-the-badge">
 
-<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/martimpalmeira/Lets-Food?style=for-the-badge">
-
 <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/martimpalmeira/Lets-Food?style=for-the-badge">
 
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/martimpalmeira/Lets-Food?color=red&logo=GitHub&style=for-the-badge">
