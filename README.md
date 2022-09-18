@@ -33,34 +33,55 @@
 <img width="100%" src="https://github.com/martimpalmeira/TesteGit/blob/main/letsfood-apresentacao.gif?raw=true" alt="application-gif">
 </p>
 
-Topics
+📌 Topics 
 =================
 <!--ts-->
-   * [Sobre](#Sobre)
-   * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Instalação](#instalacao)
-   * [Como usar](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-   * [Tests](#testes)
-   * [Tecnologias](#tecnologias)
+   * [Description](#description)
+   * [Technologies](#technologies)
+   * [What was learned?](#what-was-learned?)
+   * [Contributers](#contributers)
+   * [Licence](#licence)
 <!--te-->
 
-### 🛠 Tecnologias
+📄 Description
+=================
+> This project was developed with the aim of applying and improving knowledge in the fundamentals of front end development of web applications with html5, css3 and JavaScript es6 technologies. As a layout reference, a design made by Rauliqbal was used. The project consists of a landing page for a restaurant that provides delivery service
+<p align="center">
+<img width="100%" src="https://github.com/martimpalmeira/TesteGit/blob/main/Captura%20de%20Tela%202022-09-18%20a%CC%80s%2015.33.19.png?raw=true" >
+</p>
+<p align="center" ><a href="https://www.figma.com/file/vXZNcle5g3b9icZE3RLuVN/Let's-Food-UI-Kit---Landing-Page-(Community)?node-id=203%3A134">Let`s Food UI Kit</a></p>
 
-As seguintes ferramentas foram usadas na construção do projeto:
+
+🚀 Technologies
+=================
+
+The following tools were used in building the project:
 
 - [Html](https://expo.io/)
 - [Css](https://nodejs.org/en/)
 - [JavaScript](https://pt-br.reactjs.org/)
+- [Visual Studio Code](https://pt-br.reactjs.org/)
 
-🛠 Contributors
+🎯 What was learned?
+=================
+✔️ Responsiveness Design<br>
+✔️ Modal implementation<br>
+✔️ Mobile Menu<br>
+✔️ Animations with KeyFrames<br>
+✔️ Carousel Slider<br>
+✔️ Grid-Template properties<br>
+✔️ Flexbox properties<br>
+
+
+👤 Contributors
 =================
 <table>
   <tr>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/90350690?s=400&u=2d6ee761e0016bb33bb83e01551764d60c4181f1&v=4" width="100px;" alt=""/><br /><sub><b>Martim Palmeira</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat"></a></td>
+    <td align="center"><a href="https://github.com/martimpalmeira"><img src="https://avatars.githubusercontent.com/u/90350690?s=400&u=2d6ee761e0016bb33bb83e01551764d60c4181f1&v=4" width="100px;" alt=""/><br /><b>Martim Palmeira</b></a><br /><a href="https://github.com/martimpalmeira"></a></td>
   </tr>
 </table>
+
+📑 Licence
+=================
+This project is under license. See the <a href="https://github.com/martimpalmeira/Lets-Food/blob/main/LICENSE">LICENSE</a> file for more details.
+
