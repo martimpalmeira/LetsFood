@@ -50,7 +50,7 @@
 
 📄 Description
 =================
-> This project was developed with the aim of applying and improving knowledge in the fundamentals of front end development of web applications with html5, css3 and JavaScript es6 technologies. As a layout reference, a design made by Rauliqbal was used. The project consists of a landing page for a restaurant that provides delivery service.
+> This project was developed with the aim of applying and improving knowledge in the fundamentals of front end development of web applications with HTML5, CSS3 and JavaScript ES6 technologies. As a layout reference, a design made by Rauliqbal was used. The project consists of a landing page for a restaurant that provides delivery service.
 
 <p align="center">
 <img width="100%" src="https://github.com/martimpalmeira/TesteGit/blob/main/Captura%20de%20Tela%202022-09-18%20a%CC%80s%2015.33.19.png?raw=true" >
