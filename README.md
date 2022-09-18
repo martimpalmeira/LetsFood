@@ -1,11 +1,41 @@
 <h1 align="center">Lets-Food <img align="center" src="https://raw.githubusercontent.com/martimpalmeira/Lets-Food/7a5d70b31aa6db6f9db6855374a934aed9b7e10d/assets/img/header/logo-icon.svg" alt="logo-icon"></h1>
-<p align="center">🍜 Landing page for a food delivery service.</p>
+<p align="center"><b><i>🍜 Landing page for a food delivery service</i></b></p>
 
 <p align="center">
-<img src="https://github.com/martimpalmeira/TesteGit/blob/main/letsfood-apresentacao.gif?raw=true" alt="application-gif">
+
+<a  href="https://github.com/martimpalmeira/Lets-Food/blob/main/LICENSE">
+<img src="https://img.shields.io/github/license/martimpalmeira/Lets-Food?style=for-the-badge" alt="Licence">
+</a>
+
+<a  href="https://app.netlify.com/sites/lets-food/deploys">
+<img alt="Netlify" src="https://img.shields.io/netlify/3f57be6f-1721-4724-b47a-5579d1b3ce47?style=for-the-badge">
+</a>
+
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/martimpalmeira/Lets-Food?style=for-the-badge">
+
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/martimpalmeira/Lets-Food?style=for-the-badge">
+
+<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/martimpalmeira/Lets-Food?style=for-the-badge">
+
 </p>
 
-Tabela de conteúdos
+<p align="center">
+
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/martimpalmeira/Lets-Food?color=red&style=for-the-badge">
+
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/martimpalmeira/Lets-Food?color=red&style=for-the-badge">
+
+</p>
+
+
+
+
+
+<p align="center">
+<img width="70%" src="https://github.com/martimpalmeira/TesteGit/blob/main/letsfood-apresentacao.gif?raw=true" alt="application-gif">
+</p>
+
+Topics
 =================
 <!--ts-->
    * [Sobre](#Sobre)
@@ -29,7 +59,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Css](https://nodejs.org/en/)
 - [JavaScript](https://pt-br.reactjs.org/)
 
-### 🛠 Contributors
+🛠 Contributors
+=================
 <table>
   <tr>
     <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/90350690?s=400&u=2d6ee761e0016bb33bb83e01551764d60c4181f1&v=4" width="100px;" alt=""/><br /><sub><b>Martim Palmeira</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat"></a></td>
