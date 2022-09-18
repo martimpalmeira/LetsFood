@@ -1,6 +1,8 @@
 const hiwText = document.querySelector('.animation-hiw');
 const menuText = document.querySelector('.animation-menu');
 const banner = document.querySelector('.banner');
+const aboutUsLeft = document.querySelector('.about-food-container');
+const aboutUsRight = document.querySelector('.about-text-container');
 
 const serviceItens = document.querySelectorAll('.service-item');
 const cardItens = document.querySelectorAll('.card-item');
@@ -8,30 +10,32 @@ const footerCol = document.querySelectorAll('.footer-col');
 
 export function init() {
 
-    var countService = 0;
-    var countMenu = 0;
-    var countFooterCol = 0;
-    var count = 0
+    let countService = 0;
+    let countMenu = 0;
+    let countFooterCol = 0;
+    let count = 0
 
-    handleScrollWindow(hiwText);
-    handleScrollWindow(menuText);
-    handleScrollWindow(banner);
+    handleScrollWindowUp(hiwText);
+    handleScrollWindowUp(menuText);
+    handleScrollWindowUp(banner);
+    handleScrollWindowLeft(aboutUsLeft);
+    handleScrollWindowRight(aboutUsRight);
 
     serviceItens.forEach(i => {
-        handleScrollWindow(i);
+        handleScrollWindowUp(i);
         i.style.animationDelay = "0." + countService + "s";
         countService += 3;
     })
 
     cardItens.forEach(i => {
-        handleScrollWindow(i);
+        handleScrollWindowUp(i);
         i.style.animationDelay = "0." + countMenu + "s";
         countMenu += 3;
     })
 
     footerCol.forEach(i => {
         if (count % 2 == 0) {
-            handleScrollWindow(i);
+            handleScrollWindowUp(i);
         }else{
             handleScrollWindowDown(i);
         }
@@ -43,23 +47,27 @@ export function init() {
 
     window.addEventListener('scroll', () => {
 
-        handleScrollWindow(hiwText);
+        handleScrollWindowUp(hiwText);
 
-        handleScrollWindow(menuText);
+        handleScrollWindowUp(menuText);
 
-        handleScrollWindow(banner);
+        handleScrollWindowUp(banner);
+
+        handleScrollWindowLeft(aboutUsLeft);
+
+        handleScrollWindowRight(aboutUsRight);
 
         serviceItens.forEach(i => {
-            handleScrollWindow(i);
+            handleScrollWindowUp(i);
         })
 
         cardItens.forEach(i => {
-            handleScrollWindow(i);
+            handleScrollWindowUp(i);
         })
         let countScroll = 0
         footerCol.forEach(i => {
             if (countScroll % 2 == 0) {
-                handleScrollWindow(i);
+                handleScrollWindowUp(i);
             }else{
                 handleScrollWindowDown(i);
             }
@@ -72,20 +80,38 @@ export function init() {
 }
 
 
-function handleScrollWindow(element) {
-    var windowHeight = window.innerHeight;
-    var topDistance = element.getBoundingClientRect().top;
-    var botDistance = windowHeight - topDistance;
+function handleScrollWindowUp(element) {
+    let windowHeight = window.innerHeight;
+    let topDistance = element.getBoundingClientRect().top;
+    let botDistance = windowHeight - topDistance;
     if (botDistance >= 100 && botDistance < windowHeight + element.getBoundingClientRect().height) {
         element.classList.add('fade-in-up');
     }
 }
 
 function handleScrollWindowDown(element) {
-    var windowHeight = window.innerHeight;
-    var topDistance = element.getBoundingClientRect().top;
-    var botDistance = windowHeight - topDistance;
+    let windowHeight = window.innerHeight;
+    let topDistance = element.getBoundingClientRect().top;
+    let botDistance = windowHeight - topDistance;
     if (botDistance >= 100 && botDistance < windowHeight + element.getBoundingClientRect().height) {
         element.classList.add('fade-in-down');
+    }
+}
+
+function handleScrollWindowLeft(element) {
+    let windowHeight = window.innerHeight;
+    let topDistance = element.getBoundingClientRect().top;
+    let botDistance = windowHeight - topDistance;
+    if (botDistance >= 100 && botDistance < windowHeight + element.getBoundingClientRect().height) {
+        element.classList.add('fade-in-left');
+    }
+}
+
+function handleScrollWindowRight(element) {
+    let windowHeight = window.innerHeight;
+    let topDistance = element.getBoundingClientRect().top;
+    let botDistance = windowHeight - topDistance;
+    if (botDistance >= 100 && botDistance < windowHeight + element.getBoundingClientRect().height) {
+        element.classList.add('fade-in-right');
     }
 }

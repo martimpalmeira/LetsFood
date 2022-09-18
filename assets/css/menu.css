@@ -68,7 +68,7 @@
 
 .food-image-container{
     background-color: #F1F1F1;
-    overflow: hidden;
+    
 }
 
 .food-image{
@@ -147,7 +147,13 @@
 @media screen and (max-width: 613px) {
     .card-container{
         max-width: 300px;
+        
     }
+
+    
+    
+
+    
 
     
 }

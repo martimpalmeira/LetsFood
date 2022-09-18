@@ -2,7 +2,7 @@
   background-color: var(--light);
   height: 600px;
   position: relative;
- 
+ overflow: clip;
 }
 
 #home:target{

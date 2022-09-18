@@ -28,4 +28,31 @@ html{
   scroll-behavior: smooth;
 }
 
+/* width */
+html::-webkit-scrollbar {
+  width: 10px;
+ 
+  
+}
+
+/* Track */
+html::-webkit-scrollbar-track {
+  background: var(--light);
+  
+}
+
+/* Handle */
+html::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  
+  
+}
+
+/* Handle on hover */
+html::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 203, 69, 0.6);
+}
+
+
+
 

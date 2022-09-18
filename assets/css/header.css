@@ -43,12 +43,15 @@
   margin-right: 4px;
   display: flex;
   align-items: center;
+  transition: transform 1s ease;
   
 }
 
 .logo a:hover {
   transform: scale(1.05);
+  transition: transform 1s ease;
 }
+
 
 .menu-container {
   display: flex;
